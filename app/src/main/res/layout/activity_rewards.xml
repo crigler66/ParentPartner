@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="true"
+    android:background="@color/design_default_color_primary_dark"
+    tools:context=".Rewards">
+
+    <Button
+        android:id="@+id/PV_Button_2"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="Toy"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/PV_"
+        android:layout_width="67dp"
+        android:layout_height="29dp"
+        android:text="250 pts"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="141dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:layout_marginBottom="541dp"
+        android:text="@string/rewards"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="495dp"
+        android:ems="10"
+        android:inputType="text|textPersonName"
+        android:text="Child 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/total points"
+        android:layout_width="69dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginBottom="495dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/PV_Button_3"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="video game"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <Button
+        android:id="@+id/PV_Button_1"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="ice cream"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/PV_1"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:text="100 pts"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <TextView
+        android:id="@+id/PV_2"
+        android:layout_width="68dp"
+        android:layout_height="29dp"
+        android:text="900 pts"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="click button to add rewards"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="290dp"
+        android:layout_height="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="397dp" />
+
+</android.support.constraint.ConstraintLayout>
